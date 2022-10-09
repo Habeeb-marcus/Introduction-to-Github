@@ -79,6 +79,11 @@ What does it mean to clone a repository?  To clone a repository means to duplica
 
 ![](assets/cloned.png)
 
+6. Finally, you can connect the remote repository to your local machine by entering this command:
+
+        git remote add origin <link copied from repository>
+        example:
+        git remote add origin https://github.com/Habeeb-marcus/piano_tile.git
 
 
 ## How to make a Commit.
