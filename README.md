@@ -32,7 +32,7 @@ GitHub is a cloud-based website where code or projects may be saved and monitore
 - git init
 - git clone <your-copied-github-url>
 - git remote add origin <your-copied-github-url>
-- git checkout -b **<your-branch-name>**
+- git checkout -b `your-branch-name`
 - git add .
 - git commit -m <write your commit message here>
 - git push origin <your-branch-name>
