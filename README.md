@@ -2,8 +2,6 @@
 
 ![git](https://user-images.githubusercontent.com/77323680/194396735-3c32321b-f8d2-4bce-b28c-f3873a171ced.png)
 
-GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time. it allows for real-time collaboration, GitHub encourages teams to work together to build and edit their project content.
-
 # Audience
 This tutorial has been prepared for the beginners to help them understand the basics of GitHub. After completing this tutorial, you would understand the basics of Github and will be able to create a repository.
 # Prerequisites
