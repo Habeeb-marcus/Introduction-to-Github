@@ -1,14 +1,13 @@
 # Introduction to GitHub.
-This article gives an introductory guide to Git for beginners. It will teach you the fundamentals of Git and how to effectively publish your work to a Github repository.
+This article gives an introductory guide to Git for beginners. It will teach you the fundamentals of Git and how to effectively publish your work to a GitHub repository.
 
 ![](https://miro.medium.com/max/1400/1*HGUTuFcN7415AJt1nx1vgQ.png)
-
 
 ## Prerequisites
 Before going with this content, I recommend that you have a basic grasp of the following and that your computer is set up for git use.
 
-- Have Visual Studio Code installed on your machine.
-- Have a fundamental grasp of several terminal commands.
+- You should have Visual Studio Code installed on your machine.
+- You should Have a fundamental grasp of several terminal commands.
 - You must have a GitHub account.
 
 
@@ -25,7 +24,7 @@ Before going with this content, I recommend that you have a basic grasp of the f
 * Conclusion
 
 ## What is GitHub?
-GitHub is a cloud-based website where code or projects may be saved and monitored as a **repository**. Developers, technical writers, and cloud engineers use GitHub to save their projects so that team members from all around the world may access and contribute to them.
+GitHub is a cloud-based website where code or projects may be saved and monitored. Developers, technical writers, and cloud engineers use GitHub to save their projects so that team members from all around the world may access and contribute to them.
 
 
 ## What is Git?
