@@ -57,7 +57,7 @@ What does it mean to clone a repository?  To clone a repository means to duplica
 
 ![](assets/copyy.png)
 
-3. Create a folder for the repository you want to clone and open on VScode editor:
+3. Create a folder for the repository you want to clone and open on the VScode editor:
 
 
  ![](assets/newFolder.png)
@@ -86,13 +86,12 @@ What does it mean to clone a repository?  To clone a repository means to duplica
 
 
 ## How to make a Commit.
-A commit is a way of attaching a message to the changes you make to the source code, however before we can commit, we must first complete the following:
-
+A commit is a way of attaching a message to the changes you make to the source code. However, before we can commit, we must first complete the following:
 
 After cloning your repository, keep in mind that the branch you cloned is the main/master branch, and you should not make modifications to it directly. As a result, you must build your own unique branch to work on.
 
 
-**What exactly is a branch**? A branch is a fresh copy of the cloned repository's master branch. You may name your branch whatever you like and make modifications to it before merging it back into the main branch to save your changes.
+**What exactly is a branch**? A branch is a copy of the cloned repository's (master branch). You may name your branch whatever you like and make modifications to it before merging it back into the main branch to save your changes.
 
 <!-- image of branch -->
 ![](assets/branch.png)
@@ -106,7 +105,7 @@ After cloning your repository, keep in mind that the branch you cloned is the ma
 ##  Procedures
 Before we make a commit, we must first:
 
-1. Make any necessary modifications to the source code, then run 'git add .' The dot indicates that all modifications to the source code will be added to the secret git repo:
+1. Make any necessary modifications to the source code, then run 'git add .' The dot indicates that all modifications to the source code will be added to the secret git repo(folder that tracks all your chages):
 
         git add .
 
