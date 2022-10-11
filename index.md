@@ -46,7 +46,7 @@ GitHub is a source code hosting platform where projects (repositories) may be re
 
 
 ## How to Clone a Repository from GitHub
-What does it mean to clone a repository?  To clone a repository means to duplicate and download everything in the repository to your local machine. First, you need to **create** [(here)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) a repository before cloning to your local machine (computer). 
+What does it mean to clone a repository?  To clone a repository means to duplicate and download everything in the repository to your local machine. First, you need to **create** [(here)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) a repository before cloning it to your local machine (computer). 
 
 ### **Procedures**
 1. To clone a repository, navigate to the repository's website and click the **code** button.
@@ -57,7 +57,7 @@ What does it mean to clone a repository?  To clone a repository means to duplica
 
 ![](assets/copyy.png)
 
-3. Create a folder for the repository you want to clone and open on Vscode editor:
+3. Create a folder for the repository you want to clone and open on VScode editor:
 
 
  ![](assets/newFolder.png)
@@ -111,7 +111,6 @@ Before we make a commit, we must first:
         git add .
 
 
-
 2. on the terminal, enter the following command 
         
         git commit -m 'write your commit message here'
@@ -128,12 +127,12 @@ Before we make a commit, we must first:
 The process of merging new code modifications into the main project repository is known as pull requests (PR).
 You must have completed the whole process of making changes to the source code and committing your modifications before submitting a pull request.
 
-1. In the terminal, hold down cmd/ctrl + click on the link that says make a pull request.
+1. In the terminal, hold down cmd/ctrl + click on the link that says make a Pull request.
 
 ![](assets/pr.png)
 
 
-2. After clicking the link above to open the github repository in your browser, then click the 'Compare & pull request' option.
+2. After clicking the link above to open the github repository in your browser, then click the 'Compare & Pull request' option.
 
 ![](assets/clickPr.png)
 
@@ -151,7 +150,7 @@ You must have completed the whole process of making changes to the source code a
 ## GitHub Desktop vs. Github CLI
 ![](assets/gitvsgitcli.png)
 
-According to a post by WhiteBeamz from reddit website.
+According to a post by WhiteBeamz on the Reddit website.
 ![](assets/post.png)
 
 ## Conclusion
