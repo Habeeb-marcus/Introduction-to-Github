@@ -74,7 +74,7 @@ What does it mean to clone a repository?  To clone a repository means to duplica
 
 ![](assets/terminal.png)
 
-5. repository clone successfully 
+5. Repository cloned successfully 
 
 ![](assets/cloned.png)
 
