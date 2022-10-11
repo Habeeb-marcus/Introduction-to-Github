@@ -96,7 +96,7 @@ After cloning your repository, keep in mind that the branch you cloned is the ma
 <!-- image of branch -->
 ![](assets/branch.png)
 
-1. To make a new branch, type the following into your terminal:
+* To make a new branch, type the following into your terminal:
 
         git checkout -b <your-branch-name>
 
