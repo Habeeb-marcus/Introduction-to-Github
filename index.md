@@ -2,7 +2,6 @@
 
 ![](https://miro.medium.com/max/1400/1*HGUTuFcN7415AJt1nx1vgQ.png)
 
-
 ## Prerequisites
 Before going with this content, I recommend that you have a basic grasp of the following and that your computer is set up for git use.
 
@@ -64,7 +63,7 @@ What does it mean to clone a repository?  To clone a repository means to downloa
 
 ![](assets/copyy.png)
 
-3. Create a folder for the repository you want to clone and open on Vscode editor:
+3. Create a folder for the repository you want to clone and open on the VScode editor:
 
 
  ![](assets/newFolder.png)
@@ -84,6 +83,7 @@ What does it mean to clone a repository?  To clone a repository means to downloa
 
 ![](assets/terminal2.png)
 
+<<<<<<< HEAD
 1. repository clone successfully 
 
 ![](assets/cloned.png)
@@ -100,16 +100,26 @@ What does it mean to clone a repository?  To clone a repository means to downloa
 ### Command
      git remote add origin https://github.com/Habeeb-marcus/piano_tile.git
 >>>>>>> Stashed changes
+=======
+5. Repository cloned successfully 
+
+![](assets/cloned.png)
+
+6. Finally, you can connect the remote repository to your local machine by entering this command:
+>>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
+
+        git remote add origin <link copied from repository>
+        example:
+        git remote add origin https://github.com/Habeeb-marcus/piano_tile.git
 
 
 ## How to make a Commit.
-A commit is a way of attaching a message to the changes you make to the source code, however before we can commit, we must first complete the following:
-
+A commit is a way of attaching a message to the changes you make to the source code. However, before we can commit, we must first complete the following:
 
 After cloning your repository, keep in mind that the branch you cloned is the main/master branch, and you should not make modifications to it directly. As a result, you must build your own unique branch to work on.
 
 
-**What exactly is a branch**? A branch is a fresh copy of the cloned repository's master branch. You may name your branch whatever you like and make modifications to it before merging it back into the main branch to save your changes.
+**What exactly is a branch**? A branch is a copy of the cloned repository's (master branch). You may name your branch whatever you like and make modifications to it before merging it back into the main branch to save your changes.
 
 <!-- image of branch -->
 Amina, Mollaysa. "From Git-Virgin to Git-Pro" 29 Jan. 2019.
@@ -117,7 +127,7 @@ Amina, Mollaysa. "From Git-Virgin to Git-Pro" 29 Jan. 2019.
 
 ![](assets/branch.png)
 
-1. To make a new branch, type the following into your terminal:
+* To make a new branch, type the following into your terminal:
 
 ###    Syntax
 
@@ -131,16 +141,24 @@ Amina, Mollaysa. "From Git-Virgin to Git-Pro" 29 Jan. 2019.
 ##  Procedures
 Before we make a commit, we must first:
 
+<<<<<<< HEAD
 1. Make any necessary modifications to the source code, then run `git add .` The dot indicates that all modifications to the source code will be added to the secret git repo:
    
    ### Command
+=======
+1. Make any necessary modifications to the source code, then run 'git add .' The dot indicates that all modifications to the source code will be added to the secret git repo(folder that tracks all your chages):
+>>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
 
         git add .
 
 
+<<<<<<< HEAD
 
 2. On the terminal, enter the following command 
    ### Syntax
+=======
+2. on the terminal, enter the following command 
+>>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
         
         git commit -m 'write your commit message here'
    ### Command
@@ -167,12 +185,20 @@ Before we make a commit, we must first:
 The process of merging new code modifications into the main project repository is known as pull requests (**PR**).
 You must have completed the whole process of making changes to the source code and committing your modifications before submitting a pull request.
 
+<<<<<<< HEAD
 1. In the terminal, hold down `cmd/ctrl` + click on the link that says make a pull request.
+=======
+1. In the terminal, hold down cmd/ctrl + click on the link that says make a Pull request.
+>>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
 
 ![](assets/pr.png)
 
 
+<<<<<<< HEAD
 2. After clicking the link above to open the github repository in your browser, then click the `Compare & pull request` option.
+=======
+2. After clicking the link above to open the github repository in your browser, then click the 'Compare & Pull request' option.
+>>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
 
 ![](assets/clickPr.png)
 
@@ -191,7 +217,7 @@ You must have completed the whole process of making changes to the source code a
 According to an image on SaaSHub website
 ![](assets/gitvsgitcli.png)
 
-According to a post by WhiteBeamz from reddit website.
+According to a post by WhiteBeamz on the Reddit website.
 ![](assets/post.png)
 
 
