@@ -1,5 +1,4 @@
 # Introduction to GitHub.
-This article gives an introductory guide to Git for beginners. It will teach you the fundamentals of Git and how to effectively publish your work to a Github repository.
 
 ![](https://miro.medium.com/max/1400/1*HGUTuFcN7415AJt1nx1vgQ.png)
 
@@ -7,9 +6,9 @@ This article gives an introductory guide to Git for beginners. It will teach you
 ## Prerequisites
 Before going with this content, I recommend that you have a basic grasp of the following and that your computer is set up for git use.
 
-- Have Visual Studio Code installed on your machine.
-- Have a fundamental grasp of several terminal commands.
-- You must have a GitHub account.
+- Have Visual Studio Code installed on your machine, because this tutorial will only be using VScode for explanation.
+- Have a basic understanding of several terminal commands.
+- You should have a GitHub account.
 
 
 ## The table of content
@@ -25,7 +24,7 @@ Before going with this content, I recommend that you have a basic grasp of the f
 * Conclusion
 
 ## What is GitHub?
-GitHub is a cloud-based website where code or projects may be saved and monitored as a **repository**. Developers, technical writers, and cloud engineers use GitHub to save their projects so that team members from all around the world may access and contribute to them.
+GitHub is a cloud-based platform where code or projects can be stored, created and modified with a tool called Git. Developers, technical writers, and cloud engineers use GitHub to save their projects so that team members from all around the world may access and contribute to them.
 
 
 ## What is Git?
@@ -39,18 +38,25 @@ Git is a version control system (VSC) that lets you track changes to your reposi
 
 
 ## Git vs GitHub
-GitHub is a source code hosting platform where projects (repositories) may be reviewed with Git, a version control system that allows you to make changes to source code.
             
 
- ![alt text](https://miro.medium.com/max/1142/1*acg7QE7I1K0OCK8gRSTd-g.png "our logo")
+ Rishabh, Jain. "Article on GIT and GITHUB" , 15 Jun. 2021
+ | GIT | GITHUB |
+| ------ | ----------- |
+| Distrubuted version control system to track changes in source code   | Web based cloud service to host GitHub repositories to be shared across teams. |
+| Command line interface requires another platform to share with the world. | Graphical interface, a development platform for millions of people. |
+| Creates a local repository and stores changes on your local machine    |  Code is stored on a central server, accessible to everyone. |
+| Can work without GitHub, as there are alternatives platforms to share Git repositories    | The most popular Git server. There are alternatives such as GitLab or BitBucket. |
+
+
 
 
 
 ## How to Clone a Repository from GitHub
-What does it mean to clone a repository?  To clone a repository means to duplicate and download everything in the repository to your local machine. First, you need to **create** [(here)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) a repository before cloning to your local machine (computer). 
+What does it mean to clone a repository?  To clone a repository means to download everything in the repository to your local machine. First, you need to **create** [(here)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) a repository before cloning to your local machine (computer). 
 
 ### **Procedures**
-1. To clone a repository, navigate to the repository's website and click the **code** button.
+1. To clone a repository, navigate to any repository's website [(here)](https://github.com/Habeeb-marcus/piano_tile) and click the **code** button.
 
 ![](assets/Code.png)
 
@@ -67,18 +73,33 @@ What does it mean to clone a repository?  To clone a repository means to duplica
 ![](assets/openFolder.png)
 
 4. Enter the following command into your VScode terminal:
+
+###  Syntax
+
+     git clone <link copied from repository>
         
-        git clone <link copied from repository>
-        example:
-        git clone https://github.com/Habeeb-marcus/piano_tile.git
 
+### Command
+     git clone https://github.com/Habeeb-marcus/piano_tile.git
 
-![](assets/terminal.png)
+![](assets/terminal2.png)
 
-5. repository clone successfully 
+1. repository clone successfully 
 
 ![](assets/cloned.png)
 
+<<<<<<< Updated upstream
+=======
+6. Finally, you can connect the remote repository to your local machine by entering this command:
+
+###  Syntax
+
+      git remote add origin <link copied from repository>
+        
+
+### Command
+     git remote add origin https://github.com/Habeeb-marcus/piano_tile.git
+>>>>>>> Stashed changes
 
 
 ## How to make a Commit.
@@ -91,45 +112,67 @@ After cloning your repository, keep in mind that the branch you cloned is the ma
 **What exactly is a branch**? A branch is a fresh copy of the cloned repository's master branch. You may name your branch whatever you like and make modifications to it before merging it back into the main branch to save your changes.
 
 <!-- image of branch -->
+Amina, Mollaysa. "From Git-Virgin to Git-Pro" 29 Jan. 2019.
+
+
 ![](assets/branch.png)
 
 1. To make a new branch, type the following into your terminal:
 
-        git checkout -b <your-branch-name>
+###    Syntax
 
+     git checkout -b <your-branch-name>
+
+###    Command
+
+     git checkout -b develop
 <!-- image of branch being created -->
 ![](assets/newBranch.png)
 ##  Procedures
 Before we make a commit, we must first:
 
-1. Make any necessary modifications to the source code, then run 'git add .' The dot indicates that all modifications to the source code will be added to the secret git repo:
+1. Make any necessary modifications to the source code, then run `git add .` The dot indicates that all modifications to the source code will be added to the secret git repo:
+   
+   ### Command
 
         git add .
 
 
 
-2. on the terminal, enter the following command 
+2. On the terminal, enter the following command 
+   ### Syntax
         
         git commit -m 'write your commit message here'
+   ### Command
+        
+        git commit -m 'changed the value of wining score'
 
 
-3. push your changes made, by entering 
+3. Push your changes made, by entering 
 
+   ### Syntax
+        
         git push origin <your-branch-name>
+   ### Command
+        
+       git push origin develop
+
+
+        
 
 
 ![](assets/commit%20Pro.png)
 ## How to make pull Request
 
-The process of merging new code modifications into the main project repository is known as pull requests (PR).
+The process of merging new code modifications into the main project repository is known as pull requests (**PR**).
 You must have completed the whole process of making changes to the source code and committing your modifications before submitting a pull request.
 
-1. In the terminal, hold down cmd/ctrl + click on the link that says make a pull request.
+1. In the terminal, hold down `cmd/ctrl` + click on the link that says make a pull request.
 
 ![](assets/pr.png)
 
 
-2. After clicking the link above to open the github repository in your browser, then click the 'Compare & pull request' option.
+2. After clicking the link above to open the github repository in your browser, then click the `Compare & pull request` option.
 
 ![](assets/clickPr.png)
 
@@ -138,21 +181,29 @@ You must have completed the whole process of making changes to the source code a
    
    ![](assets/thePr.png)
 
-4. Congratulations on making a pull request, however your modifications will be merged to the main branch by the repository's owner, once it has been evaluated with this button
+4. Congratulations on making a pull request, however your modifications will be merged to the main branch by the repository's owner with this button, once it has been evaluated.
    
 ![](assets/merge.png)
     
 
 
 ## GitHub Desktop vs. Github CLI
+According to an image on SaaSHub website
 ![](assets/gitvsgitcli.png)
 
 According to a post by WhiteBeamz from reddit website.
 ![](assets/post.png)
 
+
+
+| GitHub Desktop |  GitHub CLi |
+| --------------- | ------------------ |
+| Click "commit to master" | git add filename|
+| Click "Push origin" button twice | git commit|
+| Done | git push origin master|
+
 ## Conclusion
-There are many more commands in Git than those mentioned here. It is a complex framework with various options to track code changes over time and work on the application's source code.
-If you want to learn more about these commands and other Git features, this is a great place to start: [GitHub Docs](https://docs.github.com/en/repositories)
+GitHub can really help you learn more about coding and hone your skills, which allows you to check other people's work and learn from them. It also helps developers contribute to open-source projects. If you want to learn more about GitHub, this is a great place to start: [GitHub Docs](https://docs.github.com/en/repositories)
 
 
 
