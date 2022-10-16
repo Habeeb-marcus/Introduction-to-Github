@@ -83,13 +83,10 @@ What does it mean to clone a repository?  To clone a repository means to downloa
 
 ![](assets/terminal2.png)
 
-<<<<<<< HEAD
-1. repository clone successfully 
+5. repository clone successfully 
 
 ![](assets/cloned.png)
 
-<<<<<<< Updated upstream
-=======
 6. Finally, you can connect the remote repository to your local machine by entering this command:
 
 ###  Syntax
@@ -99,18 +96,6 @@ What does it mean to clone a repository?  To clone a repository means to downloa
 
 ### Command
      git remote add origin https://github.com/Habeeb-marcus/piano_tile.git
->>>>>>> Stashed changes
-=======
-5. Repository cloned successfully 
-
-![](assets/cloned.png)
-
-6. Finally, you can connect the remote repository to your local machine by entering this command:
->>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
-
-        git remote add origin <link copied from repository>
-        example:
-        git remote add origin https://github.com/Habeeb-marcus/piano_tile.git
 
 
 ## How to make a Commit.
@@ -141,24 +126,16 @@ Amina, Mollaysa. "From Git-Virgin to Git-Pro" 29 Jan. 2019.
 ##  Procedures
 Before we make a commit, we must first:
 
-<<<<<<< HEAD
 1. Make any necessary modifications to the source code, then run `git add .` The dot indicates that all modifications to the source code will be added to the secret git repo:
    
    ### Command
-=======
-1. Make any necessary modifications to the source code, then run 'git add .' The dot indicates that all modifications to the source code will be added to the secret git repo(folder that tracks all your chages):
->>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
 
         git add .
 
 
-<<<<<<< HEAD
 
 2. On the terminal, enter the following command 
    ### Syntax
-=======
-2. on the terminal, enter the following command 
->>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
         
         git commit -m 'write your commit message here'
    ### Command
@@ -185,29 +162,21 @@ Before we make a commit, we must first:
 The process of merging new code modifications into the main project repository is known as pull requests (**PR**).
 You must have completed the whole process of making changes to the source code and committing your modifications before submitting a pull request.
 
-<<<<<<< HEAD
 1. In the terminal, hold down `cmd/ctrl` + click on the link that says make a pull request.
-=======
-1. In the terminal, hold down cmd/ctrl + click on the link that says make a Pull request.
->>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
 
 ![](assets/pr.png)
 
 
-<<<<<<< HEAD
 2. After clicking the link above to open the github repository in your browser, then click the `Compare & pull request` option.
-=======
-2. After clicking the link above to open the github repository in your browser, then click the 'Compare & Pull request' option.
->>>>>>> 4ba5593770b34f02b39aaf204c4ef5ccc84e6987
 
 ![](assets/clickPr.png)
 
 
-3. You'd be sent to this screen, where you'd click the Create Pull Request button.
+3. You'd be sent to this screen, where you'd click the `Create pull request` button.
    
    ![](assets/thePr.png)
 
-4. Congratulations on making a pull request, however your modifications will be merged to the main branch by the repository's owner with this button, once it has been evaluated.
+4. Congratulations on making a pull request, however your modifications will be merged to the main branch by the repository's owner with the `Merge pull request` button, once it has been evaluated.
    
 ![](assets/merge.png)
     
