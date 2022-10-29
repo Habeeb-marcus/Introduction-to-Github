@@ -2,9 +2,9 @@
 
 ![git](https://user-images.githubusercontent.com/77323680/194396735-3c32321b-f8d2-4bce-b28c-f3873a171ced.png)
 
-This article gives an introductory guide to Git for beginners. It will teach you the fundamentals of Git and how to effectively publish your work to a Github repository.
+This article gives an introductory guide to GitHub for beginners. It will teach you the fundamentals of GitHub and how use Git to publish your work to a Github repository.
 # Audience
-This tutorial has been prepared for beginners to help them understand the basics of GitHub. After completing this tutorial, you would understand the basics of Github and will be able to create a repository.
+This tutorial has been prepared for beginners to help them understand the basics of GitHub. After completing this tutorial, you would understand the basics of Github and will be able to create a repository and.
 # Prerequisites
 Before going with this content, I recommend that you have a basic grasp of the following and that your computer is set up for git use.
 
