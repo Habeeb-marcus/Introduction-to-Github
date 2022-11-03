@@ -55,8 +55,7 @@ Git is a version control system (VSC) that lets you track changes to your reposi
 What does it mean to clone a repository?  To clone a repository means to download everything in the repository to your local machine. First, you need to **create** [(here)](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) a repository before cloning to your local machine (computer). 
 
 ### **Procedures**
-1. To clone a repository, navigate to any repository's website [(here)](https://github.com/Habeeb-marcus/piano_tile) and click the **code** button.
-
+1. To clone a repository, navigate to any repository [(here)](https://github.com/Habeeb-marcus/piano_tile) and click the **code** button.
 ![](assets/Code.png)
 
 2. Copy the link that appears after clicking the button
