@@ -196,6 +196,7 @@ According to a post by WhiteBeamz on the Reddit website.
 | Click "commit to master" | git add filename|
 | Click "Push origin" button twice | git commit|
 | Done | git push origin master|
+<!-- | It is a software which can be installed on your computer  | It does not require a | -->
 
 ## Conclusion
 GitHub can really help you learn more about coding and hone your skills, which allows you to check other people's work and learn from them. It also helps developers contribute to open-source projects. If you want to learn more about GitHub, this is a great place to start: [GitHub Docs](https://docs.github.com/en/repositories)
