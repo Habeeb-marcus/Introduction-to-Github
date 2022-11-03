@@ -167,14 +167,18 @@ You must have completed the whole process of making changes to the source code a
 ![](assets/pr.png)
 
 
+
 2. After clicking the link above to open the github repository in your browser, then click the `Compare & pull request` option.
 
 ![](assets/clickPr.png)
 
 
+
 3. You'd be sent to this screen, where you'd click the `Create pull request` button.
    
    ![](assets/thePr.png)
+
+
 
 4. Congratulations on making a pull request, however your modifications will be merged to the main branch by the repository's owner with the `Merge pull request` button, once it has been evaluated.
    
